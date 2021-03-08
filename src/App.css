@@ -1,0 +1,23 @@
+.Navigation {
+  background-color: rgb(1, 95, 95);
+  font-size: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 6vh;
+  margin-bottom: 6vh;
+}
+
+.Navigation > * {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.Navigation > *:hover {
+  background-color: rgb(0, 54, 54);
+}
